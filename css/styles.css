@@ -64,8 +64,8 @@ body {
 .list,
 .products {
   list-style-type: none;
-  margin-top: 0;
-  padding-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 .container {
   outline: 2px solid red;
@@ -111,18 +111,26 @@ body {
   font-sizes: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 59px;
+}
+.advantages-title {
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 .names {
   font-weight: 500;
   line-height: 1.18;
   text-align: center;
   font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .ourteam {
   color: var(--text-color);
   line-height: 1.8;
   text-align: center;
   font-size: 16px;
+  margin-bottom: 30px;
 }
 .ourteams {
   background-color: #f5f4fa;
@@ -138,6 +146,8 @@ body {
 .text {
   line-height: 1.7;
   color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .products-title {
   font-weight: 700;
