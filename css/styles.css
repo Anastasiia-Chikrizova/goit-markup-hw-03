@@ -14,6 +14,12 @@ body {
   line-height: 1.14;
   font-style: normal;
 }
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .button {
   cursor: pointer;
   text-decoration: none;
@@ -50,9 +56,8 @@ body {
   font-weight: 500;
   line-height: 1.14;
 }
-.header {
+.container {
   width: 1190px;
-  outline: 2px solid red;
   margin-right: auto;
   margin-left: auto;
 }
@@ -76,6 +81,7 @@ body {
   color: var(--frame-color);
   background-color: #2f303a;
   line-height: 1.17;
+  outline: 2px solid red;
 }
 .footer > .nav-logo {
   color: var(--frame-color);
@@ -93,9 +99,6 @@ body {
   margin-top: 0;
   margin-bottom: 30px;
   outline: 2px solid red;
-  width: 1190px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .main-section > .button {
   color: var(--frame-color);
@@ -113,9 +116,11 @@ body {
   text-align: center;
   margin-bottom: 59px;
 }
+
 .advantages-title {
   margin-bottom: 20px;
   margin-top: 0;
+}
 }
 .names {
   font-weight: 500;
@@ -130,10 +135,14 @@ body {
   line-height: 1.8;
   text-align: center;
   font-size: 16px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .ourteams {
   background-color: #f5f4fa;
+  outline: 2px solid red;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 94px;
 }
 .ourteams > .list {
   background-color: var(--frame-color);
@@ -158,4 +167,13 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
+}
+.products {
+  padding: 0;
+  margin: 0;
+  outline: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100%/9);
+
 }
