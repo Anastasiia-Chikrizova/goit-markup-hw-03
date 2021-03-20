@@ -8,7 +8,7 @@
 body {
   background-color: var(--frame-color);
   color: var(--h-color);
-  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  font-family: "Roboto", "Arial", "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -36,7 +36,7 @@ body {
 }
 
 .nav-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -50,17 +50,28 @@ body {
   font-weight: 500;
   line-height: 1.14;
 }
+.header {
+  width: 1190px;
+  outline: 2px solid red;
+  margin-right: auto;
+  margin-left: auto;
+}
 .link-addres {
   color: var(--text-color);
   font-weight: 500;
   line-height: 1.14;
 }
-
 .list,
 .products {
   list-style-type: none;
+  margin-top: 0;
+  padding-bottom: 0;
 }
-
+.container {
+  outline: 2px solid red;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .footer {
   color: var(--frame-color);
   background-color: #2f303a;
@@ -72,13 +83,19 @@ body {
 
 .main-section {
   background-color: #2f303a;
+  text-align: center;
 }
 .main-section h1 {
   color: var(--frame-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  outline: 2px solid red;
+  width: 1190px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .main-section > .button {
   color: var(--frame-color);
@@ -86,6 +103,8 @@ body {
   line-height: 1.8;
   font-size: 16px;
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .main-title {
   font-weight: 700;
@@ -113,6 +132,8 @@ body {
 }
 .titles {
   font-weight: 700;
+  margin-left: 0;
+  margin-right: 0;
 }
 .text {
   line-height: 1.7;
