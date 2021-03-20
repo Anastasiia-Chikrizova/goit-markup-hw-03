@@ -1,0 +1,130 @@
+:root {
+  --h-color: #212121;
+  --hover-color: #2196f3;
+  --text-color: #757575;
+  --frame-color: #ffffff;
+}
+
+body {
+  background-color: var(--frame-color);
+  color: var(--h-color);
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+}
+.button {
+  cursor: pointer;
+  text-decoration: none;
+}
+.button:hover,
+.button:focus {
+  color: var(--frame-color);
+  background-color: var(--hover-color);
+}
+.link,
+.link-addres {
+  text-decoration: none;
+  color: var(--h-color);
+}
+.link:hover,
+.link:focus,
+.link-addres:focus,
+.link-addres:hover {
+  color: var(--hover-color);
+}
+
+.nav-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #000000;
+}
+.web {
+  color: var(--hover-color);
+}
+.nav {
+  font-weight: 500;
+  line-height: 1.14;
+}
+.link-addres {
+  color: var(--text-color);
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.list,
+.products {
+  list-style-type: none;
+}
+
+.footer {
+  color: var(--frame-color);
+  background-color: #2f303a;
+  line-height: 1.17;
+}
+.footer > .nav-logo {
+  color: var(--frame-color);
+}
+
+.main-section {
+  background-color: #2f303a;
+}
+.main-section h1 {
+  color: var(--frame-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+.main-section > .button {
+  color: var(--frame-color);
+  background: var(--hover-color);
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main-title {
+  font-weight: 700;
+  font-sizes: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.names {
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+  font-size: 16px;
+}
+.ourteam {
+  color: var(--text-color);
+  line-height: 1.8;
+  text-align: center;
+  font-size: 16px;
+}
+.ourteams {
+  background-color: #f5f4fa;
+}
+.ourteams > .list {
+  background-color: var(--frame-color);
+}
+.titles {
+  font-weight: 700;
+}
+.text {
+  line-height: 1.7;
+  color: var(--text-color);
+}
+.products-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.products-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-color);
+}
