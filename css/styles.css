@@ -15,11 +15,26 @@ body {
   line-height: 1.14;
   font-style: normal;
 }
+.container {
+  width: 1190px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 h1,
 h2,
 h3 {
   margin-top: 0;
   margin-bottom: 0;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  outline: 2px solid red;
 }
 .button {
   cursor: pointer;
@@ -49,6 +64,7 @@ h3 {
   line-height: 1.19;
   text-decoration: none;
   color: #000000;
+  display: inline-flex;
 }
 .web {
   color: var(--hover-color);
@@ -57,31 +73,18 @@ h3 {
   font-weight: 500;
   line-height: 1.14;
 }
-.container {
-  width: 1190px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .link-addres {
   color: var(--text-color);
   font-weight: 500;
   line-height: 1.14;
 }
-.list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.container {
-  outline: 2px solid red;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
+
+
 .footer {
   color: var(--frame-color);
   background-color: #2f303a;
   line-height: 1.17;
-  outline: 2px solid red;
 }
 .footer > .nav-logo {
   color: var(--frame-color);
@@ -98,7 +101,6 @@ h3 {
   line-height: 1.36;
   margin-top: 0;
   margin-bottom: 30px;
-  outline: 2px solid red;
 }
 .main-section > .button {
   color: var(--frame-color);
@@ -116,7 +118,10 @@ h3 {
   text-align: center;
   margin-bottom: 59px;
 }
-
+.advantages {
+  display: flex;
+  margin-right:30px;
+}
 .advantages-title {
   margin-bottom: 20px;
   margin-top: 0;
@@ -139,7 +144,6 @@ h3 {
 }
 .ourteams {
   background-color: #f5f4fa;
-  outline: 2px solid red;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 94px;
@@ -177,16 +181,36 @@ h3 {
   margin-left: 24px;
 }
 .product {
-  outline: 2px solid red;
-}
-.products {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: -30px;
-margin-top: -30px;
+ margin-top: -30px;
 }
+
 .products-item {
   margin-left: var(--card-set-gap);
 margin-top: var(--card-set-gap);
+}
+.nav-cont{
+  display:flex;
+  margin-left: auto;
+}
+
+.nav-li:not(:last-child){
+  margin-right:50px;
+}
+
+.nav .link,
+.nav-cont .link-addres{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.ourteams-list {
+  
+}
+.ourteams-ul {
+  display: inline-block;
+  display: flex;
 }
