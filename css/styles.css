@@ -139,12 +139,13 @@ h3 {
   line-height: 1.16;
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 94px;
 }
 .advantages {
   display: flex;
 }
 .adv-section {
-  padding: 94px 215px;
+  padding: 94px 0px;
 }
 .advantages-title {
   margin-bottom: 10px;
@@ -201,6 +202,7 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
   letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 .products-title {
   font-weight: 700;
